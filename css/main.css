@@ -1,0 +1,249 @@
+
+/*Portfolio Template Styles*/
+/*Global Styles*/
+body, html{
+  font-family: 'Magra', sans-serif;
+  margin: 0;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color:inherit;
+  text-decoration: none;
+}
+
+h1,h2,h3{
+  margin: 0;
+  font-family: 'Passion One', cursive;
+  font-weight: 300;
+}
+
+/*Header Styles*/
+header{
+  height: 100px;
+  width: 100%;
+  background-color: #FFD432;
+  font-family: 'Passion One', cursive;
+}
+
+.logo{
+  width: 400px;
+  height: 100%;
+  float: left;
+}
+
+.logo h1{
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.menu{
+  height: 100%;
+  width: 400px;
+  float: right;
+}
+
+.menu ul{
+  position: relative;
+  top: 35px;
+}
+
+.menu li{
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+/*Banner Styles*/
+#banner{
+  height: 400px;
+  width: 100%;
+  background: url("../img/fall-photo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#banner h1{
+  color: #ffffff;
+  text-align: center;
+  padding-top: 170px;
+  font-size: 36pt;
+}
+
+/*Skills Styling*/
+#skills{
+  height: 390px;
+  width: 100%;
+  background-color: #6E5F2C;
+}
+
+.skills-container{
+  height: 100%;
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 40px
+}
+
+#skills article{
+  width: 25%;
+  height: relative;
+  background-color: #ffffff;
+  float: left;
+  margin: 0px 34px;
+  padding: 15px 10px;
+  border-radius: 5px;
+}
+
+#skills article h1{
+  text-align: center;
+}
+
+#skills article p{
+  text-align: justify;
+  margin: 5px;
+}
+
+/*About Styles*/
+#about{
+  width: 100%;
+  padding: 90px 0;
+  background-color: orange;
+  display: inline-block;
+}
+
+.img-box{
+  height: 344px;
+  width: 30%;
+  float: left;
+  padding: 15px 0;
+}
+
+.img-container{
+  height: 260px;
+  width: 260px;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+#about img{
+  height: 100%;
+  border-radius: 100%;
+}
+
+.about-info{
+  height: relative;
+  width: 70%;
+  float: left;
+  background-color: orange;
+}
+
+.about-content{
+  height: 340px;
+  width: 800px;
+  border: 2px dashed #333;
+  margin-top:15px;
+  margin-bottom: 15px;
+}
+
+#about h1{
+  margin: 25px;
+  font-size: 22pt;
+}
+
+#about p{
+  margin: 25px;
+  text-align: justify;
+}
+
+#contact{
+  width: 100%;
+  padding: 25px 0;
+  display: inline-block;
+  background: url('../img/fall-photo2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#contact h1{
+  text-align: center;
+}
+
+.form-box{
+  height: 400px;
+  width: 700px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.5);
+  padding: 30px;
+}
+
+#contact input{
+  height: 40px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+#contact textarea{
+  height: 200px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+#contact button{
+  height: 40px;
+  width: 125px;
+  background-color: #ffc955;
+  border: 5px solid orange;
+  font-size: 18pt;
+  font-color: #fff;
+}
+
+#contact button:hover{
+  background-color: orange;
+}
+
+/*Footer Styles*/
+footer{
+  height: 200px;
+  width:100%;
+  background-color: #483d26;
+  clear: both;
+}
+
+.copyright p{
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.sm-icons{
+  width: 180px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.icon{
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  float: left;
+  margin: 0 5px;
+  border-radius: 100%;
+}
+
+.icon i{
+  font-size: 2em;
+  color: #483d26;
+  padding: 10px;
+}
+
+.icon:hover{
+  background-color: orange;
+}
